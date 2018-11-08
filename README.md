@@ -9,6 +9,15 @@ SFML library
 
 Sprites (folder \data)
 
+## Features
+ - A few premade scenes that show off stable and unstable orbits
+ - Dynamic body adding with precise speed vector using click-and-drag
+ - Dynamic camera control, with zoom and translation
+ - Adjustable timestep
+ - Collisons that combine body mass and speed of both into a single body
+ - Pausing of simulation.
+ - Orbital lines for easier following of orbit changes from other bodies' gravitational interference
+
 ## Algorithm
 Solar2D is a simulation of n-body physics (solar system style gravitational attractions) using the Runge-Kutta (RK4) algorithm. Calculating changes of positions (solving differential equations) using RK4 instead of the basic Euler method provides a much more precise calculation (taking gradients into account), and using sufficiently small timesteps provides maximum precision.  
   
